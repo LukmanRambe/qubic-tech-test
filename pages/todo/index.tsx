@@ -28,10 +28,7 @@ const Todos: NextPageWithLayout = () => {
   });
 
   useEffect(() => {
-    if (
-      pageIndex !== 1 &&
-      pageIndex !== Math.ceil((data?.meta.total as number) / dataLimit)
-    ) {
+    if (pageIndex !== 1) {
       setOffset((pageIndex - 1) * dataLimit);
     } else {
       setOffset(0);

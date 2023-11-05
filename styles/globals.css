@@ -42,17 +42,17 @@ html {
 
 .pg-item:hover {
   color: #ffffff;
-  background: ##2563eb;
+  background: #3b82f6;
   transition: all ease-in-out 150ms;
 }
 
 .pg-item:active {
   color: #ffffff;
-  background: #3643b4;
+  background: #2563eb;
   transition: all ease-in-out 150ms;
 }
 
 .pg-item-active {
-  background: #4670e5;
+  background: #2563eb;
   color: #ffffff;
 }
